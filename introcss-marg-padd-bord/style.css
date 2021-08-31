@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Black+Ops+One&family=Dancing+Script&display=swap');
+
+/* reset al nivel mas bajo 
+especif 0.0.0 */
+
+* {
+    background-color: cornsilk;
+}
+
+body {
+    background-color: darkkhaki;
+    margin: 4%;
+    padding: 3%;
+}
+
+
+/* etiquets sin punto 
+especif 0.0.1*/
+
+h1 {
+    color: blue;
+    font-size: 72px;
+}
+
+h2 {
+    color: chocolate;
+}
+
+div {
+    background-color: darkgreen;
+    margin-top: 5%;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+
+
+/* clases invocadas con punto 
+especif 0.1.0 */
+
+.nuevoDiv {
+    background-color: darkgrey;
+}
+
+
+/* invoco # el id 
+especif 1.0.0*/
+
+#lorem {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul li {
+    list-style-type: hiragana;
+    cursor: pointer;
+}

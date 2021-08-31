@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Black+Ops+One&display=swap');
+
+/* reset al nivel mas bajo 
+especif 0.0.0 */
+
+* {
+    background-color: cornsilk;
+}
+
+
+/* etiquets sin punto 
+especif 0.0.1
+em= 16 */
+
+h1 {
+    color: blue;
+    font-family: 'Bad Script', cursive;
+    font-size: 2em;
+}
+
+h2 {
+    color: chocolate;
+}
+
+div {
+    background-color: darkgreen;
+    margin-top: 5%;
+}
+
+
+/* clases invocadas con punto 
+especif 0.1.0 */
+
+.nuevoDiv {
+    background-color: darkgrey;
+}
+
+
+/* invoco # el id 
+especif 1.0.0*/
+
+#lorem {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul li {
+    list-style-type: hiragana;
+    cursor: pointer;
+}
+
+.pixel {
+    font-size: 2em;
+    font-family: 'Bad Script', cursive;
+}
